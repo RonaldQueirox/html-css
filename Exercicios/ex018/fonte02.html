@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Olondon';
+            src: url('fonts/Olondon_.otf') format('opentype'),
+            url('fonts/OldLondon.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+               Tipos de format()
+               - opentype (otf)
+               - truetype (ttf)
+               - embedded-opentype
+               - truetype-aat (Apple Advanced Typography)  
+               - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        h1, h2 {
+            font-family: 'Olondon', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui odit 
+    facere, harum fugit pariatur ipsam veniam quaerat explicabo in eaque 
+    suscipit repudiandae repellendus aspernatur natus dolorum magni ea 
+    excepturi id.</p>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsum 
+    incidunt aliquid et alias assumenda commodi doloribus, illum adipisci officiis 
+    suscipit eveniet ab expedita laborum obcaecati provident ullam. Eum, ducimus.</p>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+h1 { /* Box-level */
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+
+    /* Shorthand
+    Border: 10px solid darkslategray;
+    Seguindo a ordem dos borders,
+    São; width, style, color */
+
+    padding-top: 10px; /* padding para cima */
+    padding-right: 10px; /* padding para a direita */
+    padding-bottom: 10px; /* padding para baixo */
+    padding-left: 10px; /* padding para a esquerda */
+
+    /* Shorthand
+    Padding: 10px 10px 10px 10px;
+    Seguindo a ordem dos paddings, 
+    São; top, right, bottom, left */
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    /* Shorthand
+    Margin: 20px 20px 40px 20px;
+    Seguindo a ordem dos margins, 
+    São; top, right, bottom, left */
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+
+    /* Shorthand
+    outline: 5px dashed salmon 
+    Seguindo a ordem dos outlines,
+    São; width, style, color */
+    
+}
+
+a { /* Inline-level */
+    
+    border: 10px solid red;
+    padding: 10px;
+
+  }
