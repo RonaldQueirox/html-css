@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background: black url('imagens/background001.jpg') center center no-repeat fixed;
+}
+
+header {
+background-color: black;
+min-height: 150px;
+text-align: center;
+padding-top: 0px;
+border: 10px;
+}
+
+header > h1{
+    color: white;
+}
+
+header > p > a{
+  color: white;
+
+}
+
+header p {
+    color: white;
+}
+
+div#bg1 {
+    background-color: rgba(0, 0, 0, 0.233);
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+nav {
+    background-color: black;
+}
+
+nav > footer {
+    color: rgb(97, 96, 96);
+    text-align: center;
+}
+strong#stw {
+    color: white;
+}
